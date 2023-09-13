@@ -38,7 +38,7 @@ def random_generate_connected_image(m=10, n=100): # m is the number of the gener
         image_black_pixels.append(black_pixels)   
     return generated_images, image_black_pixels
 
-def ,(n=100): # s shape
+def spec_generate_connected_image(n=100): # s shape
     image = [[0 for i in range(n)] for j in range(n)]
     black_pixels = []
     for i in range(0,n,4):
