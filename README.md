@@ -23,7 +23,7 @@ We can get the flipped image of the above one with `q=0.1`:
 ![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png)
 
 ### Implementation
-The codes of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And one can just runing the following command in terminals with a python evn after clone this repo:
+The codes of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And one can get the connectness epsilon-testing results (`quert complexity` and `false positive rate`) of the `1000*1000` random image (repeating `50` times) with `epsilon=0.1` and different `q` just by runing the following command in Terminal with a python evn after cloning this repo:
 
 ```
 python ./assignment1/main.py \
@@ -34,7 +34,7 @@ python ./assignment1/main.py \
 ```
  
 
-Or one can quick start with the following command:
+Or can quick start with the following command:
 
 ```
 bash run.sh
