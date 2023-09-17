@@ -14,8 +14,10 @@ We randomly generate images which have the target property (connected shape) by 
 
 We can get an image like the following one:
 
-![Generated Random image with connected shape](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/random_connect_image.png)
+![Generated Random image with connected shape](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_random_image.png)
 
 Then we flip each entry in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectness property. 
 
 We can get the flipped image of the above one with `q=0.2`:
+
+![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png)
