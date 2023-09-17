@@ -18,7 +18,7 @@ We can get an image like the following one:
 
 Then we flip each entry in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectness property. 
 
-We can get the flipped image of the above one with `q=0.2`:
+We can get the flipped image of the above one with `q=0.1`:
 
 ![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png)
 
