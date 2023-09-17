@@ -16,6 +16,14 @@ class algorithm:
         self.query_times += 1
         return self.image[i][j]
     
+    def ground_truth_connectness(self):
+        i,j = self.black_pixels[0]
+        count_black_pixels = self.BFS(i, j, float('inf'))
+        if count_black_pixels == len(self.black_pixels):
+            connectness = True
+        else:
+            connectness = False
+        return connectness
     
     
     def random_query_list(self, query_number, tabu=None): # tabu is the section of the pixels which are not allowed to query
@@ -82,38 +90,44 @@ class ConnectTest(algorithm):
         self.delta = self.epsilon ** 2  / 4
         
     def run(self):
+        connectness = self.ground_truth_connectness()
+        # connectness = False
         self.d = round(self.d)
         accept = True
         random_query_list = self.random_query_list(math.ceil(2/self.delta))
         for i,j in random_query_list:
             if self.query(i,j) == 1:
-                count_black_pixels = self.BFS(i,j,self.d)
+                count_black_pixels = self.BFS(i, j, self.d)
                 if count_black_pixels < self.d: # a small connected component is found 
                     if self.outside_d_square(i,j):
                         accept = False
-                        return accept, self.query_times
-        return accept, self.query_times
+                        return accept, self.query_times, connectness
+        # if connectness == accept:
+        #     match = 0
+        # else:
+        #     match = 1
+        return accept, self.query_times, connectness
     
-class ImpovedConnectTest(algorithm):
+class ImprovedConnectTest(algorithm):
     
     def __init__(self, image, black_pixels, epsilon=0.2, args=None):
-        super(ConnectTest, self).__init__(image, black_pixels, epsilon=epsilon, args=args)
+        super(ImprovedConnectTest, self).__init__(image, black_pixels, epsilon=epsilon, args=args)
         self.delta = self.epsilon ** 2  / 4
         
     def run(self):
+        connectness = self.ground_truth_connectness()
         self.d = round(self.d)
         accept = True
-        random_query_list = self.random_query_list(math.ceil(2/self.delta))
-        for l in range(1,math.ceil(math.log(self.d))):
+        for l in range(1, math.ceil(math.log(self.d))):
             random_query_list = self.random_query_list(math.ceil(4 * math.log(self.d) / (self.delta * 2 ** l)))
             for i,j in random_query_list:
                 if self.query(i,j) == 1:
-                    count_black_pixels = self.BFS(i,j,2**l)
-                    if count_black_pixels < 2**l: # a small connected component is found 
+                    count_black_pixels = self.BFS(i, j, 2 ** l)
+                    if count_black_pixels < 2 ** l: # a small connected component is found 
                         if self.outside_d_square(i,j):
                             accept = False
-                            return accept, self.query_times
-        return accept, self.query_times
+                            return accept, self.query_times, connectness
+        return accept, self.query_times, connectness
         
     
         
