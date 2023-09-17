@@ -1,5 +1,13 @@
 # SPTP-ABD-assignments
 Thie repo is for my assignments of the `23 FALL CSCE 689 602: SPTP: ALGORITHMS FOR BIG DATA` which is instructed by Professor [Victoria Crawford](https://engineering.tamu.edu/cse/profiles/crawford-victoria.html) at *Texas A&M University*. 
+
+
+## Installation
+Simple run the following command to create virtual enviornment and install all dependencies automatically.
+
+```
+source install.sh
+```
 ## Assignment 1: implementation of connected shape tester for images.
 Assignment 1 is the about testing whether a image contains a connected shape consisted by black pixels, through implementing the Algorithm `T3` and `T4` of [this paper](http://people.csail.mit.edu/sofya/pixels.pdf).
 
