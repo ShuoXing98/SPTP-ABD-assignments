@@ -13,4 +13,5 @@ We randomly generate images which have the target property (connected shape) by 
 4. Repeat the above process `10*n` times.
 
 We can get an image like the following one.
+
 ![Generated Random image with connected shape](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/random_connect_image.png)
