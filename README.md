@@ -1,7 +1,7 @@
 # SPTP-ABD-assignments
-
+Thie repo is for my assignments of the `23 FALL CSCE 689 602: SPTP: ALGORITHMS FOR BIG DATA` which is instructed by Professor [Victoria Crawford](https://engineering.tamu.edu/cse/profiles/crawford-victoria.html) at *Texas A&M University*. 
 ## Assignment 1: implementation of connected shape tester for images.
-Assignment 1 is the about testing whether a image contains a connected shape consisted by black pixels, through implementing the Algorithm `T3` and `T4` in [this paper](http://people.csail.mit.edu/sofya/pixels.pdf).
+Assignment 1 is the about testing whether a image contains a connected shape consisted by black pixels, through implementing the Algorithm `T3` and `T4` of [this paper](http://people.csail.mit.edu/sofya/pixels.pdf).
 
 
 ### Generate images with connected shape
@@ -21,3 +21,31 @@ Then we flip each entry in the image matrix `M` with some probability `q`, where
 We can get the flipped image of the above one with `q=0.2`:
 
 ![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png)
+
+### Implementation
+The codes of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And one can just runing the following command in terminals with a python evn after clone this repo:
+
+```
+python ./assignment1/main.py \
+  --algorithm "ct3"  \
+  --epsilon 0.1   \
+  --size 1000  \
+  --q 0.001 0.002 0.003 0.004 0.005 0.006 0.007 0.008 0.009 0.01
+```
+ 
+
+Or one can quick start with the following command:
+
+```
+bash run.sh
+```
+
+And one may get the output like the following:
+
+```
+************************************************************
+** epsilon-tester for whether an image is connected shape **
+************************************************************
+The number of queries to the pixels is [5909.06, 5728.82, 5432.36, 4588.7, 3932.64, 3662.78, 3507.94, 3325.42, 3092.06, 2918.48]
+The false positive rate is [0.96, 0.84, 0.58, 0.12, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0]
+```
