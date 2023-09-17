@@ -24,7 +24,7 @@ def random_generate_connected_image(m=10, n=100): # m is the number of the gener
         j = random.randint(0, n-1)
         image[i][j] = 1
         black_pixels.append((i,j))
-        for _ in range(50*n):
+        for _ in range(10*n):
             while 1:
                 di,dj = random.choice(directions)
                 temp_i = i + di

@@ -16,7 +16,7 @@ Assignment 1 is the about testing whether a image contains a connected shape con
 We randomly generate images which have the target property (connected shape) by random walk of a randomly selected black pixel (every pixel can be repeatedly visited). Suppode the size of the image is `n*n`.
 
 1. Generate an `n*n` empty (all entries are `0`) matrix `M`.
-2. Randomly choose a pixel (`(i,j)` pair for the matrix), and let `M(i,j) = 1` (which represents blakc pixel).
+2. Randomly choose a pixel (a `(i,j)` pair), and let `M(i,j) = 1` (which represents blakc pixel).
 3. Randomly select the next pixel with directions `(0,1), (0,-1), (1,0), (-1,0)`.
 4. Repeat the above process `10*n` times.
 
@@ -31,21 +31,20 @@ We can get the flipped image of the above one with `q=0.1`:
 ![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png)
 
 ### Implementation
-The codes of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And one can get the connectness epsilon-testing results (`quert complexity` and `false positive rate`) of the `1000*1000` random image (repeating `50` times) with `epsilon=0.1` and different `q` just by runing the following command in Terminal with a python evn after cloning this repo:
+The codes of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And one can get the connectness epsilon-testing results (`quert complexity` and `false positive rate`) of the `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` just by runing the following command in Terminal with a python evn after cloning this repo:
 
 ```
 python ./assignment1/main.py \
-  --algorithm "ct3"  \
   --epsilon 0.1   \
   --size 1000  \
-  --q 0.001 0.002 0.003 0.004 0.005 0.006 0.007 0.008 0.009 0.01
+  --q 0.0005 0.001 0.0015 0.002 0.0025 0.003 0.0035 0.004 0.0045 0.005 0.0055 0.006
 ```
  
 
 Or can quick start with the following command:
 
 ```
-bash run.sh
+bash assignment1/run.sh
 ```
 
 And one may get the output like the following:
@@ -54,6 +53,12 @@ And one may get the output like the following:
 ************************************************************
 ** epsilon-tester for whether an image is connected shape **
 ************************************************************
-The number of queries to the pixels is [5909.06, 5728.82, 5432.36, 4588.7, 3932.64, 3662.78, 3507.94, 3325.42, 3092.06, 2918.48]
-The false positive rate is [0.96, 0.84, 0.58, 0.12, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+**********The results of algorithm T3**********
+The number of queries to the pixels is [5703.62, 5604.36, 4981.6, 4328.74, 3902.76, 3408.24, 3283.04, 3117.02, 2949.92, 2735.86]
+The false positive rate is [0.96, 0.88, 0.46, 0.1, 0.04, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+**********The results of algorithm T4**********
+The number of queries to the pixels is [11016.6, 8296.82, 5020.68, 4044.2, 3584.92, 3264.84, 3117.24, 3030.28, 2863.94, 2687.66]
+The false positive rate is [0.64, 0.16, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 ```
