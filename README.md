@@ -9,7 +9,7 @@ Simple run the following command to create virtual enviornment and install all d
 source install.sh
 ```
 ## Assignment 1: implementation of connected shape tester for images.
-Assignment 1 is the about testing whether a image contains a connected shape consisted by black pixels, through implementing the Algorithm `T3` and `T4` of [this paper](http://people.csail.mit.edu/sofya/pixels.pdf).
+Assignment 1 is the about testing whether a image contains a connected shape consists of black pixels, through implementing the Algorithm `T3` and `T4` of [this paper](http://people.csail.mit.edu/sofya/pixels.pdf).
 
 
 ### Generate images with connected shape
@@ -24,14 +24,14 @@ We can get an image like the following one:
 
 ![Generated Random image with connected shape](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_image.png)
 
-Then we flip each entry in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectness property. 
+Then we flip each entry in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectivity property. 
 
 We can get the flipped image of the above one with `q=0.1`:
 
 ![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png)
 
 ### Implementation
-The codes of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And one can get the connectness epsilon-testing results (`query complexity` and `false positive rate`) of the `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` just by runing the following command in Terminal with a python evn after cloning this repo:
+The codes of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And one can get the connectivity epsilon-testing results (`query complexity` and `false positive rate`) of the `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` just by runing the following command in Terminal with a python evn after cloning this repo:
 
 ```
 python ./assignment1/main.py \
