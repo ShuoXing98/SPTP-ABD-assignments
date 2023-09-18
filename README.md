@@ -55,12 +55,12 @@ And one may get the output like the following:
 ************************************************************
 
 **********The results of algorithm T3**********
-The number of queries to the pixels is [5703.62, 5604.36, 4981.6, 4328.74, 3902.76, 3408.24, 3283.04, 3117.02, 2949.92, 2735.86]
-The false positive rate is [0.96, 0.88, 0.46, 0.1, 0.04, 0.0, 0.0, 0.0, 0.0, 0.0]
+The number of queries to the pixels is [21661.34, 21220.14, 19691.7, 18483.54, 17360.62, 15799.54, 14183.4, 12958.64, 12084.32, 11685.7, 10829.08, 10055.66]
+The false positive rate is [0.96, 0.86, 0.62, 0.4, 0.24, 0.1, 0.06, 0.0, 0.02, 0.0, 0.0, 0.0]
 
 **********The results of algorithm T4**********
-The number of queries to the pixels is [11016.6, 8296.82, 5020.68, 4044.2, 3584.92, 3264.84, 3117.24, 3030.28, 2863.94, 2687.66]
-The false positive rate is [0.64, 0.16, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+The number of queries to the pixels is [24111.2, 20251.96, 17131.34, 15940.56, 15367.88, 14159.64, 12843.82, 11981.5, 11320.4, 11197.64, 10545.36, 9766.64]
+The false positive rate is [0.66, 0.18, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 ```
 
 Also the following plots:
