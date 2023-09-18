@@ -16,13 +16,13 @@ Assignment 1 is the about testing whether a image contains a connected shape con
 We randomly generate images which have the target property (connected shape) by random walk of a randomly selected black pixel (every pixel can be repeatedly visited). Suppode the size of the image is `n*n`.
 
 1. Generate an `n*n` empty (all entries are `0`) matrix `M`.
-2. Randomly choose a pixel (a `(i,j)` pair), and let `M(i,j) = 1` (which represents blakc pixel).
+2. Randomly choose a pixel (a `(i,j)` pair), and let `M(i,j) = 1` (which represents black pixel).
 3. Randomly select the next pixel with directions `(0,1), (0,-1), (1,0), (-1,0)`.
-4. Repeat the above process `10*n` times.
+4. Repeat the above process `50*n` times.
 
 We can get an image like the following one:
 
-![Generated Random image with connected shape](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_random_image.png)
+![Generated Random image with connected shape](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_image.png)
 
 Then we flip each entry in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectness property. 
 
@@ -31,7 +31,7 @@ We can get the flipped image of the above one with `q=0.1`:
 ![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png)
 
 ### Implementation
-The codes of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And one can get the connectness epsilon-testing results (`quert complexity` and `false positive rate`) of the `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` just by runing the following command in Terminal with a python evn after cloning this repo:
+The codes of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And one can get the connectness epsilon-testing results (`query complexity` and `false positive rate`) of the `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` just by runing the following command in Terminal with a python evn after cloning this repo:
 
 ```
 python ./assignment1/main.py \
@@ -65,6 +65,6 @@ The false positive rate is [0.66, 0.18, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 Also the following plots:
 
-![False positive rate](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/false_positive_rate_epsilon_0.1.jpg)
+![False positive rate](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/false_positive_rate_epsilon_0.1_50n.jpg)
 
-![Query complexity](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/avg_query_times_epsilon_0.1.jpg)
+![Query complexity](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/avg_query_times_epsilon_0.1_50n.jpg)
