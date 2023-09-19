@@ -30,7 +30,7 @@ The following flipped image of the generated image can be obtained by setting `q
 ![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png)
 
 ### Implementation
-The core code of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And the connectivity epsilon-testing results (includes `query complexity` and `false positive rate`) of a `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` can be obtained just by runing the following command in Terminal with a python evn after cloning this repo:
+The core code of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And the connectivity epsilon-testing results (includes `query complexity` and `false positive rate`) of a `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` can be obtained just by runing the following command:
 
 ```
 python ./assignment1/main.py \
@@ -64,6 +64,6 @@ The false positive rate is [0.66, 0.18, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 Also we can get the following plots (which are saved in `./assignment1/pics`):
 
-![False positive rate](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/false_positive_rate_epsilon_0.1_50n.jpg)
+![False positive rate](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/false_positive_rate_epsilon_0.1_50n.jpg){width=400px}
 
-![Query complexity](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/avg_query_times_epsilon_0.1_50n.jpg)
+![Query complexity](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/avg_query_times_epsilon_0.1_50n.jpg){width=400px}
