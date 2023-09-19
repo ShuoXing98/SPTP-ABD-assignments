@@ -21,15 +21,7 @@ Suppode the size of the image is `n*n`. The random image which has the connectiv
 
 Then flip each entry `M(i,j)` in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectivity property. Here is an example of a randomly generated image with and the corresponding flipped image with `q=0.1`:
 
-<img src="https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_image.png" alt="Image" width="400"><img src="https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png" alt="Image" width="400">
-
-<!-- ![Generated Random image with connected shape](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_image.png) -->
-
-
-
-<!-- The following flipped image of the generated image can be obtained by setting `q` to `0.1`: -->
-
-<!-- ![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png) -->
+<img src="https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_image.png" alt="Image" width="300"><img src="https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png" alt="Image" width="300">
 
 ### Implementation
 The core code of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And the connectivity epsilon-testing results (includes `query complexity` and `false positive rate`) of a `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` can be obtained just by runing the following command:
@@ -65,9 +57,5 @@ The false positive rate is [0.66, 0.18, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 ```
 
 Also we can get the following plots (which are saved in `./assignment1/pics`):
-
-<!-- ![False positive rate](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/false_positive_rate_epsilon_0.1_50n.jpg) -->
-
-<!-- ![Query complexity](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/avg_query_times_epsilon_0.1_50n.jpg){width=400px} -->
 
 <img src="https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/false_positive_rate_epsilon_0.1_50n.jpg" alt="Image" width="400"><img src="https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/avg_query_times_epsilon_0.1_50n.jpg" alt="Image" width="400">
