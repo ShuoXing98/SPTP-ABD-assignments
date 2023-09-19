@@ -19,15 +19,17 @@ Suppode the size of the image is `n*n`. The random image which has the connectiv
 3. Randomly select the next pixel `(i+di, j+di)` with `(di, dj) \in {(0,1), (0,-1), (1,0), (-1,0)}`, and let `M(i+di, j+di) = 1`.
 4. Repeat the above process `50*n` times, and every pixel can be repeatedly visited.
 
-Here is an example of an image generated using the described steps:
+Then flip each entry `M(i,j)` in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectivity property. Here is an example of a randomly generated image with and the corresponding flipped image with `q=0.1`:
 
-![Generated Random image with connected shape](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_image.png)
+<img src="https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_image.png" alt="Image" width="400"><img src="https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png" alt="Image" width="400">
 
-Then flip each entry `M(i,j)` in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectivity property. 
+<!-- ![Generated Random image with connected shape](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_image.png) -->
 
-The following flipped image of the generated image can be obtained by setting `q` to `0.1`:
 
-![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png)
+
+<!-- The following flipped image of the generated image can be obtained by setting `q` to `0.1`: -->
+
+<!-- ![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png) -->
 
 ### Implementation
 The core code of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And the connectivity epsilon-testing results (includes `query complexity` and `false positive rate`) of a `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` can be obtained just by runing the following command:
