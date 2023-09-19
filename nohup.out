@@ -1,0 +1,210 @@
+bash: run.sh: No such file or directory
+bash: run.sh: No such file or directory
+wandb: Currently logged in as: shuo-xing (nkura). Use `wandb login --relogin` to force relogin
+wandb: WARNING If you're specifying your api key in code, ensure this code is not shared publicly.
+wandb: WARNING Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+wandb: Appending key for api.wandb.ai to your netrc file: /home/nlpintern/.netrc
+wandb: wandb version 0.15.10 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.4
+wandb: Run data is saved locally in /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/run-20230917_141515-htr79d69
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run chocolate-sky-9
+wandb: ⭐️ View project at https://wandb.ai/nkura/assignment_big_data
+wandb: 🚀 View run at https://wandb.ai/nkura/assignment_big_data/runs/htr79d69
+************************************************************
+** epsilon-tester for whether an image is connected shape **
+************************************************************
+The number of queries to the pixels is [20221.68, 18943.3, 16303.14, 15530.2, 13099.14, 11773.3, 10850.5, 10104.28, 9736.02, 9478.36]
+The false positive rate is [0.92, 0.66, 0.24, 0.22, 0.04, 0.0, 0.0, 0.0, 0.0, 0.0]
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:     avg_query_times █▇▅▅▃▂▂▁▁▁
+wandb: false_positive_rate █▆▃▃▁▁▁▁▁▁
+wandb:                   q ▁▂▃▃▄▅▆▆▇█
+wandb: 
+wandb: Run summary:
+wandb:     avg_query_times 9478.36
+wandb: false_positive_rate 0.0
+wandb:                   q 0.01
+wandb: 
+wandb: 🚀 View run chocolate-sky-9 at: https://wandb.ai/nkura/assignment_big_data/runs/htr79d69
+wandb: Synced 5 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230917_141515-htr79d69/logs
+wandb: Currently logged in as: shuo-xing (nkura). Use `wandb login --relogin` to force relogin
+wandb: WARNING If you're specifying your api key in code, ensure this code is not shared publicly.
+wandb: WARNING Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+wandb: Appending key for api.wandb.ai to your netrc file: /home/nlpintern/.netrc
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.15.10 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.4
+wandb: Run data is saved locally in /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/run-20230917_144624-ujsvwc6b
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run floral-flower-10
+wandb: ⭐️ View project at https://wandb.ai/nkura/assignment_big_data
+wandb: 🚀 View run at https://wandb.ai/nkura/assignment_big_data/runs/ujsvwc6b
+************************************************************
+** epsilon-tester for whether an image is connected shape **
+************************************************************
+The number of queries to the pixels is [22017.96, 17664.7, 15497.12, 14558.4, 13336.82, 12335.2, 11351.28, 10868.58, 9781.76, 9698.98]
+The false positive rate is [0.34, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:     avg_query_times █▆▄▄▃▂▂▂▁▁
+wandb: false_positive_rate █▁▁▁▁▁▁▁▁▁
+wandb:                   q ▁▂▃▃▄▅▆▆▇█
+wandb: 
+wandb: Run summary:
+wandb:     avg_query_times 9698.98
+wandb: false_positive_rate 0.0
+wandb:                   q 0.01
+wandb: 
+wandb: 🚀 View run floral-flower-10 at: https://wandb.ai/nkura/assignment_big_data/runs/ujsvwc6b
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230917_144624-ujsvwc6b/logs
+wandb: Currently logged in as: shuo-xing (nkura). Use `wandb login --relogin` to force relogin
+wandb: WARNING If you're specifying your api key in code, ensure this code is not shared publicly.
+wandb: WARNING Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+wandb: Appending key for api.wandb.ai to your netrc file: /home/nlpintern/.netrc
+wandb: wandb version 0.15.10 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.4
+wandb: Run data is saved locally in /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/run-20230917_170636-ikr4xbhw
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run skilled-glade-15
+wandb: ⭐️ View project at https://wandb.ai/nkura/assignment_big_data
+wandb: 🚀 View run at https://wandb.ai/nkura/assignment_big_data/runs/ikr4xbhw
+************************************************************
+** epsilon-tester for whether an image is connected shape **
+************************************************************
+
+
+**********The results of algorithm T3**********
+The number of queries to the pixels is [6108.44, 5696.9, 5637.0, 5308.02, 4831.5, 4452.56, 4327.96, 3795.76, 3519.02, 3338.74, 3343.28, 3277.54]
+The false positive rate is [1.0, 0.88, 0.78, 0.54, 0.3, 0.2, 0.06, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+
+**********The results of algorithm T4**********
+The number of queries to the pixels is [11700.16, 10516.76, 7356.82, 5414.56, 4327.4, 4052.48, 3735.6, 3526.88, 3437.24, 3245.78, 3260.56, 3177.0]
+The false positive rate is [0.74, 0.36, 0.12, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:                      q ▁▂▂▃▄▄▅▅▆▇▇█
+wandb:     t3_avg_query_times █▇▇▆▅▄▄▂▂▁▁▁
+wandb: t3_false_positive_rate █▇▆▅▃▂▁▁▁▁▁▁
+wandb:     t4_avg_query_times █▇▄▃▂▂▁▁▁▁▁▁
+wandb: t4_false_positive_rate █▄▂▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:                      q 0.006
+wandb:     t3_avg_query_times 3277.54
+wandb: t3_false_positive_rate 0.0
+wandb:     t4_avg_query_times 3177.0
+wandb: t4_false_positive_rate 0.0
+wandb: 
+wandb: 🚀 View run skilled-glade-15 at: https://wandb.ai/nkura/assignment_big_data/runs/ikr4xbhw
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230917_170636-ikr4xbhw/logs
+wandb: Currently logged in as: shuo-xing (nkura). Use `wandb login --relogin` to force relogin
+wandb: WARNING If you're specifying your api key in code, ensure this code is not shared publicly.
+wandb: WARNING Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+wandb: Appending key for api.wandb.ai to your netrc file: /home/nlpintern/.netrc
+wandb: wandb version 0.15.10 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.4
+wandb: Run data is saved locally in /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/run-20230918_113419-osbenzyt
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run efficient-breeze-17
+wandb: ⭐️ View project at https://wandb.ai/nkura/assignment_big_data
+wandb: 🚀 View run at https://wandb.ai/nkura/assignment_big_data/runs/osbenzyt
+************************************************************
+** epsilon-tester for whether an image is connected shape **
+************************************************************
+
+
+**********The results of algorithm T3**********
+The number of queries to the pixels is [16159.9, 15490.42, 15264.86, 15114.38, 14807.46, 14215.32, 13928.62, 13258.9, 11901.28, 11140.14, 10327.66, 10257.88]
+The false positive rate is [1.0, 0.98, 1.0, 0.96, 0.94, 0.92, 0.88, 0.82, 0.62, 0.6, 0.56, 0.44]
+
+
+**********The results of algorithm T4**********
+The number of queries to the pixels is [16620.34, 15974.24, 15695.54, 15530.8, 15157.56, 14551.12, 14181.18, 13420.48, 12049.92, 11244.78, 10413.56, 10319.48]
+The false positive rate is [1.0, 0.96, 0.86, 0.72, 0.58, 0.48, 0.3, 0.18, 0.12, 0.02, 0.04, 0.0]
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:                      q ▁▂▂▃▄▄▅▅▆▇▇█
+wandb:     t3_avg_query_times █▇▇▇▆▆▅▅▃▂▁▁
+wandb: t3_false_positive_rate ███▇▇▇▆▆▃▃▃▁
+wandb:     t4_avg_query_times █▇▇▇▆▆▅▄▃▂▁▁
+wandb: t4_false_positive_rate ██▇▆▅▄▃▂▂▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:                      q 0.006
+wandb:     t3_avg_query_times 10257.88
+wandb: t3_false_positive_rate 0.44
+wandb:     t4_avg_query_times 10319.48
+wandb: t4_false_positive_rate 0.0
+wandb: 
+wandb: 🚀 View run efficient-breeze-17 at: https://wandb.ai/nkura/assignment_big_data/runs/osbenzyt
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230918_113419-osbenzyt/logs
+wandb: Currently logged in as: shuo-xing (nkura). Use `wandb login --relogin` to force relogin
+wandb: WARNING If you're specifying your api key in code, ensure this code is not shared publicly.
+wandb: WARNING Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+wandb: Appending key for api.wandb.ai to your netrc file: /home/nlpintern/.netrc
+wandb: wandb version 0.15.10 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.4
+wandb: Run data is saved locally in /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/run-20230919_085655-iao93vi1
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run blooming-cosmos-18
+wandb: ⭐️ View project at https://wandb.ai/nkura/assignment_big_data
+wandb: 🚀 View run at https://wandb.ai/nkura/assignment_big_data/runs/iao93vi1
+wandb: Currently logged in as: shuo-xing (nkura). Use `wandb login --relogin` to force relogin
+wandb: WARNING If you're specifying your api key in code, ensure this code is not shared publicly.
+wandb: WARNING Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+wandb: Appending key for api.wandb.ai to your netrc file: /home/nlpintern/.netrc
+wandb: wandb version 0.15.10 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.4
+wandb: Run data is saved locally in /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/run-20230919_094723-7glbq7ng
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run breezy-aardvark-19
+wandb: ⭐️ View project at https://wandb.ai/nkura/assignment_big_data
+wandb: 🚀 View run at https://wandb.ai/nkura/assignment_big_data/runs/7glbq7ng
+************************************************************
+** epsilon-tester for whether an image is connected shape **
+************************************************************
+
+
+**********The results of algorithm T3**********
+The number of queries to the pixels is [16775.28, 16494.38, 16106.62, 15654.1, 14984.44, 14420.12, 13550.56, 13442.02, 12919.06, 12484.74, 12096.12, 11800.4]
+The false positive rate is [1.0, 0.9, 0.76, 0.72, 0.66, 0.38, 0.12, 0.1, 0.08, 0.06, 0.02, 0.0]
+
+
+**********The results of algorithm T4**********
+The number of queries to the pixels is [18962.64, 17694.38, 16704.16, 15527.64, 14741.0, 13951.5, 13261.74, 13131.32, 12772.94, 12248.82, 11896.56, 11730.58]
+The false positive rate is [0.78, 0.46, 0.12, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.003 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:                      q ▁▂▂▃▄▄▅▅▆▇▇█
+wandb:     t3_avg_query_times ██▇▆▅▅▃▃▃▂▁▁
+wandb: t3_false_positive_rate █▇▆▆▆▄▂▂▂▁▁▁
+wandb:     t4_avg_query_times █▇▆▅▄▃▂▂▂▂▁▁
+wandb: t4_false_positive_rate █▅▂▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:                      q 0.006
+wandb:     t3_avg_query_times 11800.4
+wandb: t3_false_positive_rate 0.0
+wandb:     t4_avg_query_times 11730.58
+wandb: t4_false_positive_rate 0.0
+wandb: 
+wandb: 🚀 View run breezy-aardvark-19 at: https://wandb.ai/nkura/assignment_big_data/runs/7glbq7ng
+wandb: Synced 5 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230919_094723-7glbq7ng/logs

@@ -1,0 +1,30 @@
+2023-09-17 17:00:22,595 INFO    MainThread:676900 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-09-17 17:00:22,595 INFO    MainThread:676900 [wandb_setup.py:_flush():76] Configure stats pid to 676900
+2023-09-17 17:00:22,596 INFO    MainThread:676900 [wandb_setup.py:_flush():76] Loading settings from /home/nlpintern/.config/wandb/settings
+2023-09-17 17:00:22,596 INFO    MainThread:676900 [wandb_setup.py:_flush():76] Loading settings from /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/settings
+2023-09-17 17:00:22,596 INFO    MainThread:676900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-17 17:00:22,596 INFO    MainThread:676900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'assignment1/main.py', 'program': '/import/home/nlpintern/shuoxing/SPTP-ABD-assignments/./assignment1/main.py'}
+2023-09-17 17:00:22,596 INFO    MainThread:676900 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-09-17 17:00:22,596 INFO    MainThread:676900 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-09-17 17:00:22,597 INFO    MainThread:676900 [wandb_init.py:_log_setup():507] Logging user logs to /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/run-20230917_170022-4puo3ec3/logs/debug.log
+2023-09-17 17:00:22,597 INFO    MainThread:676900 [wandb_init.py:_log_setup():508] Logging internal logs to /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/run-20230917_170022-4puo3ec3/logs/debug-internal.log
+2023-09-17 17:00:22,597 INFO    MainThread:676900 [wandb_init.py:init():547] calling init triggers
+2023-09-17 17:00:22,598 INFO    MainThread:676900 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-09-17 17:00:22,598 INFO    MainThread:676900 [wandb_init.py:init():596] starting backend
+2023-09-17 17:00:22,598 INFO    MainThread:676900 [wandb_init.py:init():600] setting up manager
+2023-09-17 17:00:22,604 INFO    MainThread:676900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-17 17:00:22,610 INFO    MainThread:676900 [wandb_init.py:init():606] backend started and connected
+2023-09-17 17:00:22,613 INFO    MainThread:676900 [wandb_init.py:init():703] updated telemetry
+2023-09-17 17:00:22,632 INFO    MainThread:676900 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-09-17 17:00:23,190 INFO    MainThread:676900 [wandb_run.py:_on_init():2176] communicating current version
+2023-09-17 17:00:23,249 INFO    MainThread:676900 [wandb_run.py:_on_init():2185] got version response upgrade_message: "wandb version 0.15.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-09-17 17:00:23,249 INFO    MainThread:676900 [wandb_init.py:init():787] starting run threads in backend
+2023-09-17 17:00:25,737 INFO    MainThread:676900 [wandb_run.py:_console_start():2155] atexit reg
+2023-09-17 17:00:25,738 INFO    MainThread:676900 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-09-17 17:00:25,738 INFO    MainThread:676900 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-09-17 17:00:25,739 INFO    MainThread:676900 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-09-17 17:00:25,740 INFO    MainThread:676900 [wandb_init.py:init():828] run started, returning control to user process
+2023-09-17 17:00:25,742 INFO    MainThread:676900 [wandb_run.py:_config_callback():1283] config_cb None None {'project_name': 'epsilon-tester', 'epsilon': 0.3, 'size': 1000, 'repeat': 50, 'q': [0.0005, 0.001, 0.0015, 0.002, 0.0025, 0.003, 0.0035, 0.004, 0.0045, 0.005, 0.0055, 0.006], 'wandb_key': 'c9039a6663b7aa3fa1260f5c004c21cce2584bd1'}
+2023-09-17 17:05:28,183 WARNING MsgRouterThr:676900 [router.py:message_loop():77] message_loop has been closed

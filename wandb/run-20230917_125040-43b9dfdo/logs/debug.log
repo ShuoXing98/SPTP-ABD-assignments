@@ -1,0 +1,30 @@
+2023-09-17 12:50:40,516 INFO    MainThread:664032 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-09-17 12:50:40,517 INFO    MainThread:664032 [wandb_setup.py:_flush():76] Configure stats pid to 664032
+2023-09-17 12:50:40,518 INFO    MainThread:664032 [wandb_setup.py:_flush():76] Loading settings from /home/nlpintern/.config/wandb/settings
+2023-09-17 12:50:40,518 INFO    MainThread:664032 [wandb_setup.py:_flush():76] Loading settings from /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/settings
+2023-09-17 12:50:40,518 INFO    MainThread:664032 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-17 12:50:40,519 WARNING MainThread:664032 [wandb_setup.py:_flush():76] Could not save program above cwd: /home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment1/main.py
+2023-09-17 12:50:40,519 INFO    MainThread:664032 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program': '/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment1/main.py'}
+2023-09-17 12:50:40,519 INFO    MainThread:664032 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-09-17 12:50:40,519 INFO    MainThread:664032 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-09-17 12:50:40,520 INFO    MainThread:664032 [wandb_init.py:_log_setup():507] Logging user logs to /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/run-20230917_125040-43b9dfdo/logs/debug.log
+2023-09-17 12:50:40,520 INFO    MainThread:664032 [wandb_init.py:_log_setup():508] Logging internal logs to /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/wandb/run-20230917_125040-43b9dfdo/logs/debug-internal.log
+2023-09-17 12:50:40,521 INFO    MainThread:664032 [wandb_init.py:init():547] calling init triggers
+2023-09-17 12:50:40,522 INFO    MainThread:664032 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-09-17 12:50:40,523 INFO    MainThread:664032 [wandb_init.py:init():596] starting backend
+2023-09-17 12:50:40,523 INFO    MainThread:664032 [wandb_init.py:init():600] setting up manager
+2023-09-17 12:50:40,534 INFO    MainThread:664032 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-17 12:50:40,546 INFO    MainThread:664032 [wandb_init.py:init():606] backend started and connected
+2023-09-17 12:50:40,555 INFO    MainThread:664032 [wandb_init.py:init():703] updated telemetry
+2023-09-17 12:50:40,585 INFO    MainThread:664032 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-09-17 12:50:41,333 INFO    MainThread:664032 [wandb_run.py:_on_init():2176] communicating current version
+2023-09-17 12:50:41,404 INFO    MainThread:664032 [wandb_run.py:_on_init():2185] got version response upgrade_message: "wandb version 0.15.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-09-17 12:50:41,405 INFO    MainThread:664032 [wandb_init.py:init():787] starting run threads in backend
+2023-09-17 12:50:44,006 INFO    MainThread:664032 [wandb_run.py:_console_start():2155] atexit reg
+2023-09-17 12:50:44,007 INFO    MainThread:664032 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-09-17 12:50:44,007 INFO    MainThread:664032 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-09-17 12:50:44,008 INFO    MainThread:664032 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-09-17 12:50:44,010 INFO    MainThread:664032 [wandb_init.py:init():828] run started, returning control to user process
+2023-09-17 12:50:44,015 INFO    MainThread:664032 [wandb_run.py:_config_callback():1283] config_cb None None {'algorithm': 'ct3', 'project_name': 'epsilon-tester', 'epsilon': 0.1, 'size': 1000, 'wandb_key': 'c9039a6663b7aa3fa1260f5c004c21cce2584bd1', 'repeat': 50, 'q': [0.001, 0.002, 0.003, 0.004, 0.005, 0.006, 0.007, 0.008, 0.009, 0.01]}

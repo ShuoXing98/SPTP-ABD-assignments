@@ -1,0 +1,1 @@
+{"t3_false_positive_rate": 0.46, "_timestamp": 1694941521.9415412, "_runtime": 299.33113622665405, "_step": 59, "t3_avg_query_times": 2853.1, "t4_false_positive_rate": 0.0, "t4_avg_query_times": 2932.46, "q": 0.006, "_wandb": {"runtime": 299}}

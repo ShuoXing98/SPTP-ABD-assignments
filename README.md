@@ -1,5 +1,5 @@
 # SPTP-ABD-assignments
-Thie repo is for my assignments of the `23 FALL CSCE 689 602: SPTP: ALGORITHMS FOR BIG DATA` which is instructed by Professor [Victoria Crawford](https://engineering.tamu.edu/cse/profiles/crawford-victoria.html) at *Texas A&M University*. 
+Thie repo is for Shuo Xing's assignments of the class `23 FALL CSCE 689 602: SPTP: ALGORITHMS FOR BIG DATA` which is instructed by Professor [Victoria Crawford](https://engineering.tamu.edu/cse/profiles/crawford-victoria.html) at Texas A&M University. 
 
 
 ## Installation
@@ -11,27 +11,26 @@ source install.sh
 ## Assignment 1: implementation of connected shape tester for images.
 Assignment 1 is the about testing whether a image contains a connected shape consists of black pixels, through implementing the Algorithm `T3` and `T4` of [this paper](http://people.csail.mit.edu/sofya/pixels.pdf).
 
-
 ### Generate images with connected shape
-We randomly generate images which have the target property (connected shape) by random walk of a randomly selected black pixel (every pixel can be repeatedly visited). Suppode the size of the image is `n*n`.
+Suppode the size of the image is `n*n`. The random image which has the connectivity property are generated through random walk initiated from a randomly selected black pixel by the following steps. 
 
 1. Generate an `n*n` empty (all entries are `0`) matrix `M`.
-2. Randomly choose a pixel (a `(i,j)` pair), and let `M(i,j) = 1` (which represents black pixel).
-3. Randomly select the next pixel with directions `(0,1), (0,-1), (1,0), (-1,0)`.
-4. Repeat the above process `50*n` times.
+2. Randomly choose a pixel (a `(i,j)` pair), and let `M(i,j) = 1`.
+3. Randomly select the next pixel `(i+di, j+di)` with `(di, dj) \in {(0,1), (0,-1), (1,0), (-1,0)}`, and let `M(i+di, j+di) = 1`.
+4. Repeat the above process `50*n` times, and every pixel can be repeatedly visited.
 
-We can get an image like the following one:
+Here is an example of an image generated using the described steps:
 
 ![Generated Random image with connected shape](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/generated_image.png)
 
-Then we flip each entry in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectivity property. 
+Then flip each entry `M(i,j)` in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectivity property. 
 
-We can get the flipped image of the above one with `q=0.1`:
+The following flipped image of the generated image can be obtained by setting `q` to `0.1`:
 
 ![Flipped image](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/flipped_image.png)
 
 ### Implementation
-The codes of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And one can get the connectivity epsilon-testing results (`query complexity` and `false positive rate`) of the `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` just by runing the following command in Terminal with a python evn after cloning this repo:
+The core code of algorithms `T3` and `T4` can be found in `./assingment1/algorithms`. And the connectivity epsilon-testing results (includes `query complexity` and `false positive rate`) of a `1000*1000` random image (by repeating `50` times) with `epsilon=0.1` and different `q` can be obtained just by runing the following command in Terminal with a python evn after cloning this repo:
 
 ```
 python ./assignment1/main.py \
@@ -41,13 +40,13 @@ python ./assignment1/main.py \
 ```
  
 
-Or can quick start with the following command:
+Or quick start with the following command:
 
 ```
 bash assignment1/run.sh
 ```
 
-And one may get the output like the following:
+And output like the following can be obtained after about `2 hrs`:
 
 ```
 ************************************************************
@@ -63,7 +62,7 @@ The number of queries to the pixels is [24111.2, 20251.96, 17131.34, 15940.56, 1
 The false positive rate is [0.66, 0.18, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 ```
 
-Also the following plots:
+Also we can get the following plots (which are saved in `./assignment1/pics`):
 
 ![False positive rate](https://github.com/ShuoXing98/SPTP-ABD-assignments/blob/main/assignment1/pics/false_positive_rate_epsilon_0.1_50n.jpg)
 
