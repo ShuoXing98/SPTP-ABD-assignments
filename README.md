@@ -16,7 +16,7 @@ Suppode the size of the image is `n*n`. The random image which has the connectiv
 
 1. Generate an `n*n` empty (all entries are `0`) matrix `M`.
 2. Randomly choose a pixel (a `(i,j)` pair), and let `M(i,j) = 1`.
-3. Randomly select the next pixel `(i+di, j+di)` with `(di, dj) \in {(0,1), (0,-1), (1,0), (-1,0)}`, and let `M(i+di, j+di) = 1`.
+3. Randomly select the next pixel `(i+di, j+dj)` with `(di, dj) \in {(0,1), (0,-1), (1,0), (-1,0)}`, and let `M(i+di, j+dj) = 1`.
 4. Repeat the above process `50*n` times, and every pixel can be repeatedly visited.
 
 Then flip each entry `M(i,j)` in the image matrix `M` with some probability `q`, where if `q=0` then the image has the property and as `q` gets higher (up to a certain point) the image would get further away from having the connectivity property. Here is an example of a randomly generated image with and the corresponding flipped image with `q=0.1`:
