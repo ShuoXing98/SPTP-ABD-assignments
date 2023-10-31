@@ -1,5 +1,5 @@
 # SPTP-ABD-assignments
-Thie repo is for Shuo Xing's assignments of the class `23 FALL CSCE 689 602: SPTP: ALGORITHMS FOR BIG DATA` which is instructed by Professor [Victoria Crawford](https://engineering.tamu.edu/cse/profiles/crawford-victoria.html) at Texas A&M University. 
+This repo is for Shuo Xing's assignments of the class `23 FALL CSCE 689 602: SPTP: ALGORITHMS FOR BIG DATA` which is instructed by Professor [Victoria Crawford](https://engineering.tamu.edu/cse/profiles/crawford-victoria.html) at Texas A&M University.
 
 
 ## Installation
