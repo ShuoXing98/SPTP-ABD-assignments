@@ -1,0 +1,118 @@
+2023-11-01 05:38:13,649 INFO    StreamThr :2783034 [internal.py:wandb_internal():86] W&B internal server running at pid: 2783034, started at: 2023-11-01 05:38:13.647844
+2023-11-01 05:38:13,657 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status
+2023-11-01 05:38:13,663 INFO    WriterThread:2783034 [datastore.py:open_for_write():85] open: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/run-iy3p607j.wandb
+2023-11-01 05:38:13,669 DEBUG   SenderThread:2783034 [sender.py:send():369] send: header
+2023-11-01 05:38:13,683 DEBUG   SenderThread:2783034 [sender.py:send():369] send: run
+2023-11-01 05:38:14,308 INFO    SenderThread:2783034 [dir_watcher.py:__init__():211] watching files in: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/files
+2023-11-01 05:38:14,309 INFO    SenderThread:2783034 [sender.py:_start_run_threads():1100] run started: iy3p607j with start time 1698788293.645133
+2023-11-01 05:38:14,310 DEBUG   SenderThread:2783034 [sender.py:send_request():396] send_request: summary_record
+2023-11-01 05:38:14,312 INFO    SenderThread:2783034 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-11-01 05:38:14,332 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: check_version
+2023-11-01 05:38:14,333 DEBUG   SenderThread:2783034 [sender.py:send_request():396] send_request: check_version
+2023-11-01 05:38:14,426 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: run_start
+2023-11-01 05:38:14,472 DEBUG   HandlerThread:2783034 [system_info.py:__init__():31] System info init
+2023-11-01 05:38:14,473 DEBUG   HandlerThread:2783034 [system_info.py:__init__():46] System info init done
+2023-11-01 05:38:14,473 INFO    HandlerThread:2783034 [system_monitor.py:start():181] Starting system monitor
+2023-11-01 05:38:14,475 INFO    HandlerThread:2783034 [system_monitor.py:probe():201] Collecting system info
+2023-11-01 05:38:14,475 INFO    SystemMonitor:2783034 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-11-01 05:38:14,480 INFO    SystemMonitor:2783034 [interfaces.py:start():190] Started cpu monitoring
+2023-11-01 05:38:14,481 INFO    SystemMonitor:2783034 [interfaces.py:start():190] Started disk monitoring
+2023-11-01 05:38:14,490 INFO    SystemMonitor:2783034 [interfaces.py:start():190] Started gpu monitoring
+2023-11-01 05:38:14,494 INFO    SystemMonitor:2783034 [interfaces.py:start():190] Started memory monitoring
+2023-11-01 05:38:14,497 INFO    SystemMonitor:2783034 [interfaces.py:start():190] Started network monitoring
+2023-11-01 05:38:14,560 DEBUG   HandlerThread:2783034 [system_info.py:probe():195] Probing system
+2023-11-01 05:38:14,578 DEBUG   HandlerThread:2783034 [system_info.py:_probe_git():180] Probing git
+2023-11-01 05:38:14,618 DEBUG   HandlerThread:2783034 [system_info.py:_probe_git():188] Probing git done
+2023-11-01 05:38:14,618 DEBUG   HandlerThread:2783034 [system_info.py:probe():240] Probing system done
+2023-11-01 05:38:14,619 DEBUG   HandlerThread:2783034 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-86-generic-x86_64-with-glibc2.35', 'python': '3.9.15', 'heartbeatAt': '2023-10-31T21:38:14.560600', 'startedAt': '2023-10-31T21:38:13.598220', 'docker': None, 'cuda': None, 'args': ('--algorithm', 'threshold', '--data-dir', 'data/corel.txt', '--project-name', 'assignment-2-debug'), 'state': 'running', 'program': '/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/main.py', 'git': {'remote': 'git@shuoxing98.github.com:ShuoXing98/Submodular-Optimizition.git', 'commit': '75a17328cc99efcbb1e8eb564baa4d0cb32c408d'}, 'email': 'xingshuo9853@gmail.com', 'root': '/import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2', 'host': 'tongzhang2.math.ust.hk', 'username': 'nlpintern', 'executable': '/home/nlpintern/.conda/envs/bbpl/bin/python', 'cpu_count': 28, 'cpu_count_logical': 28, 'cpu_freq': {'current': 1566.8645357142855, 'min': 1000.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1700.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1685.475, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 3200.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 3200.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2100.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2900.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2100.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}], 'disk': {'total': 219.37694931030273, 'used': 38.50795364379883}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 1006.5594177246094}}
+2023-11-01 05:38:14,619 INFO    HandlerThread:2783034 [system_monitor.py:probe():211] Finished collecting system info
+2023-11-01 05:38:14,620 INFO    HandlerThread:2783034 [system_monitor.py:probe():214] Publishing system info
+2023-11-01 05:38:14,620 DEBUG   HandlerThread:2783034 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-11-01 05:38:14,626 DEBUG   HandlerThread:2783034 [system_info.py:_save_pip():67] Saving pip packages done
+2023-11-01 05:38:14,626 DEBUG   HandlerThread:2783034 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-11-01 05:38:15,326 INFO    Thread-17 :2783034 [dir_watcher.py:_on_file_created():272] file/dir created: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/files/requirements.txt
+2023-11-01 05:38:15,328 INFO    Thread-17 :2783034 [dir_watcher.py:_on_file_created():272] file/dir created: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/files/wandb-summary.json
+2023-11-01 05:38:15,329 INFO    Thread-17 :2783034 [dir_watcher.py:_on_file_created():272] file/dir created: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/files/conda-environment.yaml
+2023-11-01 05:38:20,022 DEBUG   HandlerThread:2783034 [system_info.py:_save_conda():86] Saving conda packages done
+2023-11-01 05:38:20,054 INFO    HandlerThread:2783034 [system_monitor.py:probe():216] Finished publishing system info
+2023-11-01 05:38:20,085 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:38:20,086 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-01 05:38:20,089 DEBUG   SenderThread:2783034 [sender.py:send():369] send: files
+2023-11-01 05:38:20,089 INFO    SenderThread:2783034 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-11-01 05:38:20,120 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-01 05:38:20,122 DEBUG   SenderThread:2783034 [sender.py:send_request():396] send_request: stop_status
+2023-11-01 05:38:20,258 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: partial_history
+2023-11-01 05:38:20,263 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: partial_history
+2023-11-01 05:38:20,265 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: partial_history
+2023-11-01 05:38:20,268 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: partial_history
+2023-11-01 05:38:20,320 INFO    Thread-17 :2783034 [dir_watcher.py:_on_file_modified():289] file/dir modified: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/files/conda-environment.yaml
+2023-11-01 05:38:20,321 INFO    Thread-17 :2783034 [dir_watcher.py:_on_file_created():272] file/dir created: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/files/wandb-metadata.json
+2023-11-01 05:38:20,400 DEBUG   SenderThread:2783034 [sender.py:send():369] send: telemetry
+2023-11-01 05:38:20,400 DEBUG   SenderThread:2783034 [sender.py:send():369] send: config
+2023-11-01 05:38:20,410 DEBUG   SenderThread:2783034 [sender.py:send():369] send: history
+2023-11-01 05:38:20,412 DEBUG   SenderThread:2783034 [sender.py:send_request():396] send_request: summary_record
+2023-11-01 05:38:20,425 INFO    SenderThread:2783034 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-11-01 05:38:20,426 DEBUG   SenderThread:2783034 [sender.py:send():369] send: history
+2023-11-01 05:38:20,427 DEBUG   SenderThread:2783034 [sender.py:send_request():396] send_request: summary_record
+2023-11-01 05:38:20,429 INFO    SenderThread:2783034 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-11-01 05:38:20,430 DEBUG   SenderThread:2783034 [sender.py:send():369] send: history
+2023-11-01 05:38:20,431 DEBUG   SenderThread:2783034 [sender.py:send_request():396] send_request: summary_record
+2023-11-01 05:38:20,433 INFO    SenderThread:2783034 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-11-01 05:38:20,434 DEBUG   SenderThread:2783034 [sender.py:send():369] send: history
+2023-11-01 05:38:20,435 DEBUG   SenderThread:2783034 [sender.py:send_request():396] send_request: summary_record
+2023-11-01 05:38:20,437 INFO    SenderThread:2783034 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-11-01 05:38:20,703 INFO    wandb-upload_0:2783034 [upload_job.py:push():133] Uploaded file /tmp/tmpg3lt5ytdwandb/wroqvuuf-wandb-metadata.json
+2023-11-01 05:38:21,322 INFO    Thread-17 :2783034 [dir_watcher.py:_on_file_modified():289] file/dir modified: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/files/wandb-summary.json
+2023-11-01 05:38:21,324 INFO    Thread-17 :2783034 [dir_watcher.py:_on_file_created():272] file/dir created: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/files/output.log
+2023-11-01 05:38:23,326 INFO    Thread-17 :2783034 [dir_watcher.py:_on_file_modified():289] file/dir modified: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/files/output.log
+2023-11-01 05:38:24,441 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:38:26,896 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-01 05:38:29,442 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:38:34,444 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:38:39,445 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:38:44,452 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:38:45,361 INFO    Thread-17 :2783034 [dir_watcher.py:_on_file_modified():289] file/dir modified: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_053813-iy3p607j/files/config.yaml
+2023-11-01 05:38:49,769 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:38:54,771 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:38:59,772 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:04,774 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:09,776 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:14,497 DEBUG   SystemMonitor:2783034 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-11-01 05:39:14,504 DEBUG   SenderThread:2783034 [sender.py:send():369] send: stats
+2023-11-01 05:39:15,507 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:20,511 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:25,512 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:30,514 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:35,515 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:40,517 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:44,510 DEBUG   SenderThread:2783034 [sender.py:send():369] send: stats
+2023-11-01 05:39:46,514 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:51,515 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:39:56,517 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:01,518 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:06,520 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:11,522 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:14,516 DEBUG   SenderThread:2783034 [sender.py:send():369] send: stats
+2023-11-01 05:40:17,521 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:22,522 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:27,524 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:32,525 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:37,527 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:42,529 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:44,524 DEBUG   SenderThread:2783034 [sender.py:send():369] send: stats
+2023-11-01 05:40:48,529 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:53,530 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:40:58,532 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:03,534 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:08,535 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:13,537 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:14,530 DEBUG   SenderThread:2783034 [sender.py:send():369] send: stats
+2023-11-01 05:41:19,536 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:24,537 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:29,538 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:34,540 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:39,541 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:44,537 DEBUG   SenderThread:2783034 [sender.py:send():369] send: stats
+2023-11-01 05:41:45,541 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:50,542 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 05:41:55,544 DEBUG   HandlerThread:2783034 [handler.py:handle_request():144] handle_request: status_report

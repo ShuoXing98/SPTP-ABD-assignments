@@ -1,0 +1,30 @@
+2023-11-01 04:24:22,170 INFO    MainThread:2774849 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-11-01 04:24:22,171 INFO    MainThread:2774849 [wandb_setup.py:_flush():76] Configure stats pid to 2774849
+2023-11-01 04:24:22,171 INFO    MainThread:2774849 [wandb_setup.py:_flush():76] Loading settings from /home/nlpintern/.config/wandb/settings
+2023-11-01 04:24:22,171 INFO    MainThread:2774849 [wandb_setup.py:_flush():76] Loading settings from /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/settings
+2023-11-01 04:24:22,172 INFO    MainThread:2774849 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-01 04:24:22,172 WARNING MainThread:2774849 [wandb_setup.py:_flush():76] Could not save program above cwd: /home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/main.py
+2023-11-01 04:24:22,172 INFO    MainThread:2774849 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program': '/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/main.py'}
+2023-11-01 04:24:22,172 INFO    MainThread:2774849 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-11-01 04:24:22,172 INFO    MainThread:2774849 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-11-01 04:24:22,173 INFO    MainThread:2774849 [wandb_init.py:_log_setup():507] Logging user logs to /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042422-7wul6fpn/logs/debug.log
+2023-11-01 04:24:22,173 INFO    MainThread:2774849 [wandb_init.py:_log_setup():508] Logging internal logs to /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042422-7wul6fpn/logs/debug-internal.log
+2023-11-01 04:24:22,174 INFO    MainThread:2774849 [wandb_init.py:init():547] calling init triggers
+2023-11-01 04:24:22,174 INFO    MainThread:2774849 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-11-01 04:24:22,174 INFO    MainThread:2774849 [wandb_init.py:init():596] starting backend
+2023-11-01 04:24:22,175 INFO    MainThread:2774849 [wandb_init.py:init():600] setting up manager
+2023-11-01 04:24:22,182 INFO    MainThread:2774849 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-01 04:24:22,191 INFO    MainThread:2774849 [wandb_init.py:init():606] backend started and connected
+2023-11-01 04:24:22,198 INFO    MainThread:2774849 [wandb_init.py:init():703] updated telemetry
+2023-11-01 04:24:22,225 INFO    MainThread:2774849 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-11-01 04:24:22,919 INFO    MainThread:2774849 [wandb_run.py:_on_init():2176] communicating current version
+2023-11-01 04:24:22,979 INFO    MainThread:2774849 [wandb_run.py:_on_init():2185] got version response upgrade_message: "wandb version 0.15.12 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-11-01 04:24:22,980 INFO    MainThread:2774849 [wandb_init.py:init():787] starting run threads in backend
+2023-11-01 04:24:28,534 INFO    MainThread:2774849 [wandb_run.py:_console_start():2155] atexit reg
+2023-11-01 04:24:28,536 INFO    MainThread:2774849 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-11-01 04:24:28,537 INFO    MainThread:2774849 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-11-01 04:24:28,538 INFO    MainThread:2774849 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-11-01 04:24:28,541 INFO    MainThread:2774849 [wandb_init.py:init():828] run started, returning control to user process
+2023-11-01 04:24:28,551 INFO    MainThread:2774849 [wandb_run.py:_config_callback():1283] config_cb None None {'algorithm': 'thresholds', 'log_dir': 'logs/', 'data_dir': 'data/corel_60.txt', 'project_name': 'assignment-2-debug', 'application': 'setcover', 'epsilon': [0.3], 'mono': 0.0, 'unif_cost': False, 'car_cons': 100, 'wandb_key': 'c9039a6663b7aa3fa1260f5c004c21cce2584bd1'}

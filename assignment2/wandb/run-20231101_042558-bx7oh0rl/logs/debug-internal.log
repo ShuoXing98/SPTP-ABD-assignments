@@ -1,0 +1,51 @@
+2023-11-01 04:25:58,640 INFO    StreamThr :2775343 [internal.py:wandb_internal():86] W&B internal server running at pid: 2775343, started at: 2023-11-01 04:25:58.638983
+2023-11-01 04:25:58,649 DEBUG   HandlerThread:2775343 [handler.py:handle_request():144] handle_request: status
+2023-11-01 04:25:58,653 INFO    WriterThread:2775343 [datastore.py:open_for_write():85] open: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042558-bx7oh0rl/run-bx7oh0rl.wandb
+2023-11-01 04:25:58,659 DEBUG   SenderThread:2775343 [sender.py:send():369] send: header
+2023-11-01 04:25:58,665 DEBUG   SenderThread:2775343 [sender.py:send():369] send: run
+2023-11-01 04:25:59,283 INFO    SenderThread:2775343 [dir_watcher.py:__init__():211] watching files in: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042558-bx7oh0rl/files
+2023-11-01 04:25:59,284 INFO    SenderThread:2775343 [sender.py:_start_run_threads():1100] run started: bx7oh0rl with start time 1698783958.637246
+2023-11-01 04:25:59,285 DEBUG   SenderThread:2775343 [sender.py:send_request():396] send_request: summary_record
+2023-11-01 04:25:59,286 INFO    SenderThread:2775343 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-11-01 04:25:59,306 DEBUG   HandlerThread:2775343 [handler.py:handle_request():144] handle_request: check_version
+2023-11-01 04:25:59,308 DEBUG   SenderThread:2775343 [sender.py:send_request():396] send_request: check_version
+2023-11-01 04:25:59,395 DEBUG   HandlerThread:2775343 [handler.py:handle_request():144] handle_request: run_start
+2023-11-01 04:25:59,448 DEBUG   HandlerThread:2775343 [system_info.py:__init__():31] System info init
+2023-11-01 04:25:59,448 DEBUG   HandlerThread:2775343 [system_info.py:__init__():46] System info init done
+2023-11-01 04:25:59,449 INFO    HandlerThread:2775343 [system_monitor.py:start():181] Starting system monitor
+2023-11-01 04:25:59,451 INFO    HandlerThread:2775343 [system_monitor.py:probe():201] Collecting system info
+2023-11-01 04:25:59,452 INFO    SystemMonitor:2775343 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-11-01 04:25:59,455 INFO    SystemMonitor:2775343 [interfaces.py:start():190] Started cpu monitoring
+2023-11-01 04:25:59,461 INFO    SystemMonitor:2775343 [interfaces.py:start():190] Started disk monitoring
+2023-11-01 04:25:59,466 INFO    SystemMonitor:2775343 [interfaces.py:start():190] Started gpu monitoring
+2023-11-01 04:25:59,470 INFO    SystemMonitor:2775343 [interfaces.py:start():190] Started memory monitoring
+2023-11-01 04:25:59,473 INFO    SystemMonitor:2775343 [interfaces.py:start():190] Started network monitoring
+2023-11-01 04:25:59,558 DEBUG   HandlerThread:2775343 [system_info.py:probe():195] Probing system
+2023-11-01 04:25:59,579 DEBUG   HandlerThread:2775343 [system_info.py:_probe_git():180] Probing git
+2023-11-01 04:25:59,627 DEBUG   HandlerThread:2775343 [system_info.py:_probe_git():188] Probing git done
+2023-11-01 04:25:59,628 DEBUG   HandlerThread:2775343 [system_info.py:probe():240] Probing system done
+2023-11-01 04:25:59,629 DEBUG   HandlerThread:2775343 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-86-generic-x86_64-with-glibc2.35', 'python': '3.9.15', 'heartbeatAt': '2023-10-31T20:25:59.558880', 'startedAt': '2023-10-31T20:25:58.601797', 'docker': None, 'cuda': None, 'args': ('--algorithm', 'thresholds', '--data-dir', 'data/corel_60.txt', '--project-name', 'assignment-2-debug'), 'state': 'running', 'program': '/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/main.py', 'git': {'remote': 'git@shuoxing98.github.com:ShuoXing98/Submodular-Optimizition.git', 'commit': '75a17328cc99efcbb1e8eb564baa4d0cb32c408d'}, 'email': 'xingshuo9853@gmail.com', 'root': '/import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2', 'host': 'tongzhang2.math.ust.hk', 'username': 'nlpintern', 'executable': '/home/nlpintern/.conda/envs/bbpl/bin/python', 'cpu_count': 28, 'cpu_count_logical': 28, 'cpu_freq': {'current': 1549.3580000000002, 'min': 1000.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2991.316, 'min': 1000.0, 'max': 3200.0}, {'current': 1460.503, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.003, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 3200.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1448.521, 'min': 1000.0, 'max': 3200.0}, {'current': 2000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2100.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2100.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3200.0}], 'disk': {'total': 219.37694931030273, 'used': 38.50752639770508}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 1006.5594177246094}}
+2023-11-01 04:25:59,630 INFO    HandlerThread:2775343 [system_monitor.py:probe():211] Finished collecting system info
+2023-11-01 04:25:59,630 INFO    HandlerThread:2775343 [system_monitor.py:probe():214] Publishing system info
+2023-11-01 04:25:59,631 DEBUG   HandlerThread:2775343 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-11-01 04:25:59,638 DEBUG   HandlerThread:2775343 [system_info.py:_save_pip():67] Saving pip packages done
+2023-11-01 04:25:59,639 DEBUG   HandlerThread:2775343 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-11-01 04:26:00,297 INFO    Thread-17 :2775343 [dir_watcher.py:_on_file_created():272] file/dir created: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042558-bx7oh0rl/files/requirements.txt
+2023-11-01 04:26:00,299 INFO    Thread-17 :2775343 [dir_watcher.py:_on_file_created():272] file/dir created: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042558-bx7oh0rl/files/wandb-summary.json
+2023-11-01 04:26:00,299 INFO    Thread-17 :2775343 [dir_watcher.py:_on_file_created():272] file/dir created: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042558-bx7oh0rl/files/conda-environment.yaml
+2023-11-01 04:26:04,666 DEBUG   HandlerThread:2775343 [system_info.py:_save_conda():86] Saving conda packages done
+2023-11-01 04:26:04,705 INFO    HandlerThread:2775343 [system_monitor.py:probe():216] Finished publishing system info
+2023-11-01 04:26:04,747 DEBUG   HandlerThread:2775343 [handler.py:handle_request():144] handle_request: status_report
+2023-11-01 04:26:04,748 DEBUG   HandlerThread:2775343 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-01 04:26:04,750 DEBUG   SenderThread:2775343 [sender.py:send():369] send: files
+2023-11-01 04:26:04,751 INFO    SenderThread:2775343 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-11-01 04:26:04,781 DEBUG   HandlerThread:2775343 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-01 04:26:04,782 DEBUG   SenderThread:2775343 [sender.py:send_request():396] send_request: stop_status
+2023-11-01 04:26:05,127 DEBUG   SenderThread:2775343 [sender.py:send():369] send: telemetry
+2023-11-01 04:26:05,128 DEBUG   SenderThread:2775343 [sender.py:send():369] send: config
+2023-11-01 04:26:05,306 INFO    Thread-17 :2775343 [dir_watcher.py:_on_file_modified():289] file/dir modified: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042558-bx7oh0rl/files/conda-environment.yaml
+2023-11-01 04:26:05,307 INFO    Thread-17 :2775343 [dir_watcher.py:_on_file_created():272] file/dir created: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042558-bx7oh0rl/files/wandb-metadata.json
+2023-11-01 04:26:05,308 INFO    Thread-17 :2775343 [dir_watcher.py:_on_file_created():272] file/dir created: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042558-bx7oh0rl/files/output.log
+2023-11-01 04:26:05,388 INFO    wandb-upload_0:2775343 [upload_job.py:push():133] Uploaded file /tmp/tmptyglnbq3wandb/lih322kw-wandb-metadata.json
+2023-11-01 04:26:07,309 INFO    Thread-17 :2775343 [dir_watcher.py:_on_file_modified():289] file/dir modified: /import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/wandb/run-20231101_042558-bx7oh0rl/files/output.log
+2023-11-01 04:26:10,139 DEBUG   HandlerThread:2775343 [handler.py:handle_request():144] handle_request: status_report

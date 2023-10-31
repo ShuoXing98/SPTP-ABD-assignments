@@ -1,0 +1,203 @@
+{
+    "os": "Linux-5.15.0-86-generic-x86_64-with-glibc2.35",
+    "python": "3.9.15",
+    "heartbeatAt": "2023-10-31T21:56:31.235938",
+    "startedAt": "2023-10-31T21:56:30.330765",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--algorithm",
+        "greedy",
+        "--data-dir",
+        "data/corel.txt",
+        "--project-name",
+        "assignment-2-debug"
+    ],
+    "state": "running",
+    "program": "/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2/main.py",
+    "git": {
+        "remote": "git@shuoxing98.github.com:ShuoXing98/Submodular-Optimizition.git",
+        "commit": "75a17328cc99efcbb1e8eb564baa4d0cb32c408d"
+    },
+    "email": "xingshuo9853@gmail.com",
+    "root": "/import/home/nlpintern/shuoxing/SPTP-ABD-assignments/assignment2",
+    "host": "tongzhang2.math.ust.hk",
+    "username": "nlpintern",
+    "executable": "/home/nlpintern/.conda/envs/bbpl/bin/python",
+    "cpu_count": 28,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 1815.2708571428573,
+        "min": 1000.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3100.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2087.378,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2600.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1900.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 1000.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "total": 219.37694931030273,
+        "used": 38.508182525634766
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 1006.5594177246094
+    }
+}
