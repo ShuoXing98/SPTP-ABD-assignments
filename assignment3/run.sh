@@ -1,5 +1,5 @@
 python ./assignment3/main.py \
   --project-name "assignment3-adpseq" \
-  --epsilon  0.3 \
-  --data-dir "assignment3/data/corel.txt" \
-  --car-cons 50 100 150 200 250 300 350 400
+  --epsilon  0.1 0.2 0.3 0.4 0.5 \
+  --data-dir "assignment3/data/cover_n2500.txt" \
+  --car-cons 100

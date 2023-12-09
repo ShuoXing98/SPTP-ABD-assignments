@@ -1,1 +1,0 @@
-{"epsilon": 0.3, "_timestamp": 1702111982.231403, "_runtime": 47.536707162857056, "_step": 7, "mono": 0.0, "unif_cost": false, "cardinality-constraint": 100, "n": 4500, "m": 375, "fval": 97.0, "evals": 4500, "_wandb": {"runtime": 47}}

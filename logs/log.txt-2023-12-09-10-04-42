@@ -1,0 +1,9 @@
+*******************************
+** Using Set Cover Objective **
+*******************************
+
+
+**********The results of algorithm Adaptive Sequencing**********
+The value of f is [1454.0, 1488.0, 1435.0, 1328.0, 1342.0]
+The number of queries is [1441899, 685281, 755465, 727000, 674116]
+The number of adaptive rounds is [87, 57, 32, 20, 18]

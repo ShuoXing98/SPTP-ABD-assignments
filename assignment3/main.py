@@ -110,7 +110,7 @@ def main(args):
     plt.xlabel(x_axis)
     plt.ylabel('value of f')
     plt.legend(loc = 'upper right')
-    plt.savefig(f'./assignment3/pics/f_val_{x_axis}.jpg')
+    plt.savefig(f'./assignment3/pics/f_val_{x_axis}_cover2500.jpg')
     
     
     plt.figure(2)
@@ -120,7 +120,7 @@ def main(args):
     plt.xlabel(x_axis)
     plt.ylabel('query complexity')
     plt.legend(loc = 'upper right')
-    plt.savefig(f'./assignment3/pics/query_complexity_{x_axis}.jpg')
+    plt.savefig(f'./assignment3/pics/query_complexity_{x_axis}_cover2500.jpg')
 
     plt.figure(3)
     if x_axis == 'k':
@@ -129,7 +129,7 @@ def main(args):
     plt.xlabel(x_axis)
     plt.ylabel('adaptivity')
     plt.legend(loc = 'upper right')
-    plt.savefig(f'./assignment3/pics/adaptivity_{x_axis}.jpg')
+    plt.savefig(f'./assignment3/pics/adaptivity_{x_axis}_cover2500.jpg')
     
 
 if __name__ == "__main__":

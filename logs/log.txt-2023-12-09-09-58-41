@@ -1,0 +1,15 @@
+*******************************
+** Using Set Cover Objective **
+*******************************
+
+
+**********The results of algorithm Standard Greedy**********
+The value of f is [42.0, 82.0, 121.0, 181.0, 243.0, 283.0, 312.0, 342.0]
+The number of queries is [44955, 89810, 134565, 223775, 356840, 445050, 532860, 663825]
+The number of adaptive rounds is [10, 20, 30, 50, 80, 100, 120, 150]
+
+
+**********The results of algorithm Adaptive Sequencing**********
+The value of f is [42.0, 81.0, 115.0, 175.0, 232.0, 275.0, 303.0, 322.0]
+The number of queries is [70961, 177868, 302599, 558553, 1209407, 1450244, 1918466, 2331275]
+The number of adaptive rounds is [7, 11, 18, 24, 32, 39, 45, 44]

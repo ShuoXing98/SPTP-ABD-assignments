@@ -1,9 +1,0 @@
-************************************************************
-** epsilon-tester for whether an image is connected shape **
-************************************************************
-**********The results of algorithm T3**********
-The number of queries to the pixels is [5703.62, 5604.36, 4981.6, 4328.74, 3902.76, 3408.24, 3283.04, 3117.02, 2949.92, 2735.86]
-The false positive rate is [0.96, 0.88, 0.46, 0.1, 0.04, 0.0, 0.0, 0.0, 0.0, 0.0]
-**********The results of algorithm T4**********
-The number of queries to the pixels is [11016.6, 8296.82, 5020.68, 4044.2, 3584.92, 3264.84, 3117.24, 3030.28, 2863.94, 2687.66]
-The false positive rate is [0.64, 0.16, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
