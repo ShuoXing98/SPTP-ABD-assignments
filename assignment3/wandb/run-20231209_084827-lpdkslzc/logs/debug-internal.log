@@ -1,0 +1,179 @@
+2023-12-09 08:48:27,895 INFO    StreamThr :73786 [internal.py:wandb_internal():89] W&B internal server running at pid: 73786, started at: 2023-12-09 08:48:27.894179
+2023-12-09 08:48:27,914 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: status
+2023-12-09 08:48:27,916 INFO    WriterThread:73786 [datastore.py:open_for_write():85] open: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/run-lpdkslzc.wandb
+2023-12-09 08:48:27,918 DEBUG   SenderThread:73786 [sender.py:send():380] send: header
+2023-12-09 08:48:27,918 DEBUG   SenderThread:73786 [sender.py:send():380] send: run
+2023-12-09 08:48:28,148 INFO    SenderThread:73786 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files
+2023-12-09 08:48:28,148 INFO    SenderThread:73786 [sender.py:_start_run_threads():1127] run started: lpdkslzc with start time 1702111707.891664
+2023-12-09 08:48:28,176 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: check_version
+2023-12-09 08:48:28,177 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: check_version
+2023-12-09 08:48:28,231 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: run_start
+2023-12-09 08:48:28,233 DEBUG   HandlerThread:73786 [system_info.py:__init__():32] System info init
+2023-12-09 08:48:28,233 DEBUG   HandlerThread:73786 [system_info.py:__init__():47] System info init done
+2023-12-09 08:48:28,233 INFO    HandlerThread:73786 [system_monitor.py:start():194] Starting system monitor
+2023-12-09 08:48:28,234 INFO    SystemMonitor:73786 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-09 08:48:28,235 INFO    HandlerThread:73786 [system_monitor.py:probe():214] Collecting system info
+2023-12-09 08:48:28,237 INFO    SystemMonitor:73786 [interfaces.py:start():190] Started cpu monitoring
+2023-12-09 08:48:28,240 INFO    SystemMonitor:73786 [interfaces.py:start():190] Started disk monitoring
+2023-12-09 08:48:28,243 INFO    SystemMonitor:73786 [interfaces.py:start():190] Started memory monitoring
+2023-12-09 08:48:28,247 INFO    SystemMonitor:73786 [interfaces.py:start():190] Started network monitoring
+2023-12-09 08:48:28,251 DEBUG   HandlerThread:73786 [system_info.py:probe():196] Probing system
+2023-12-09 08:48:28,260 DEBUG   HandlerThread:73786 [system_info.py:_probe_git():181] Probing git
+2023-12-09 08:48:28,281 DEBUG   HandlerThread:73786 [system_info.py:_probe_git():189] Probing git done
+2023-12-09 08:48:28,281 DEBUG   HandlerThread:73786 [system_info.py:probe():244] Probing system done
+2023-12-09 08:48:28,281 DEBUG   HandlerThread:73786 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-1050-aws-x86_64-with-debian-bullseye-sid', 'python': '3.7.16', 'heartbeatAt': '2023-12-09T08:48:28.252106', 'startedAt': '2023-12-09T08:48:27.879210', 'docker': None, 'cuda': None, 'args': ('--algorithm', 'greedy', '--data-dir', 'data/cover_n5000.txt', '--project-name', 'assignment-2-debug'), 'state': 'running', 'program': '/home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/main.py', 'codePathLocal': 'main.py', 'codePath': 'assignment3/main.py', 'git': {'remote': 'git@github.com:ShuoXing98/SPTP-ABD-assignments.git', 'commit': 'b95f77238dcd7afc22e68e0e6a285b296d59976c'}, 'email': 'xingshuo9853@gmail.com', 'root': '/home/ubuntu/shuoxing/SPTP-ABD-assignments', 'host': 'ip-172-31-63-152', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/matroid/bin/python', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2300.08, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2300.08, 'min': 0.0, 'max': 0.0}, {'current': 2300.08, 'min': 0.0, 'max': 0.0}, {'current': 2300.08, 'min': 0.0, 'max': 0.0}, {'current': 2300.08, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 96.73210144042969, 'used': 49.668495178222656}}, 'memory': {'total': 15.612220764160156}}
+2023-12-09 08:48:28,282 INFO    HandlerThread:73786 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-09 08:48:28,282 INFO    HandlerThread:73786 [system_monitor.py:probe():227] Publishing system info
+2023-12-09 08:48:28,282 DEBUG   HandlerThread:73786 [system_info.py:_save_pip():53] Saving list of pip packages installed into the current environment
+2023-12-09 08:48:28,283 DEBUG   HandlerThread:73786 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-09 08:48:28,283 DEBUG   HandlerThread:73786 [system_info.py:_save_conda():76] Saving list of conda packages installed into the current environment
+2023-12-09 08:48:29,154 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/conda-environment.yaml
+2023-12-09 08:48:29,155 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/requirements.txt
+2023-12-09 08:48:34,499 DEBUG   HandlerThread:73786 [system_info.py:_save_conda():87] Saving conda packages done
+2023-12-09 08:48:34,507 INFO    HandlerThread:73786 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-09 08:48:34,511 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: status_report
+2023-12-09 08:48:34,512 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-09 08:48:34,513 DEBUG   SenderThread:73786 [sender.py:send():380] send: files
+2023-12-09 08:48:34,513 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-12-09 08:48:34,531 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-09 08:48:34,531 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: stop_status
+2023-12-09 08:48:34,577 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-09 08:48:34,650 DEBUG   SenderThread:73786 [sender.py:send():380] send: telemetry
+2023-12-09 08:48:34,651 DEBUG   SenderThread:73786 [sender.py:send():380] send: config
+2023-12-09 08:48:34,699 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-09 08:48:34,700 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-09 08:48:34,701 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-09 08:48:34,702 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-09 08:48:34,703 DEBUG   SenderThread:73786 [sender.py:send():380] send: history
+2023-12-09 08:48:34,703 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: summary_record
+2023-12-09 08:48:34,711 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-09 08:48:34,712 DEBUG   SenderThread:73786 [sender.py:send():380] send: history
+2023-12-09 08:48:34,712 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: summary_record
+2023-12-09 08:48:34,713 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-09 08:48:34,713 DEBUG   SenderThread:73786 [sender.py:send():380] send: history
+2023-12-09 08:48:34,714 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: summary_record
+2023-12-09 08:48:34,714 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-09 08:48:34,715 DEBUG   SenderThread:73786 [sender.py:send():380] send: history
+2023-12-09 08:48:34,715 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: summary_record
+2023-12-09 08:48:34,716 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-09 08:48:34,764 INFO    wandb-upload_0:73786 [upload_job.py:push():131] Uploaded file /tmp/tmp25magxl8wandb/mcoayp47-wandb-metadata.json
+2023-12-09 08:48:35,152 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/conda-environment.yaml
+2023-12-09 08:48:35,152 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/output.log
+2023-12-09 08:48:35,153 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/wandb-metadata.json
+2023-12-09 08:48:35,153 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/wandb-summary.json
+2023-12-09 08:48:37,153 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/output.log
+2023-12-09 08:48:37,840 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-09 08:48:37,842 DEBUG   SenderThread:73786 [sender.py:send():380] send: history
+2023-12-09 08:48:37,842 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: summary_record
+2023-12-09 08:48:37,850 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-09 08:48:38,154 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/wandb-summary.json
+2023-12-09 08:48:38,207 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-09 08:48:38,208 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-09 08:48:38,210 DEBUG   SenderThread:73786 [sender.py:send():380] send: history
+2023-12-09 08:48:38,210 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-09 08:48:38,210 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: summary_record
+2023-12-09 08:48:38,212 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-09 08:48:38,213 DEBUG   SenderThread:73786 [sender.py:send():380] send: history
+2023-12-09 08:48:38,213 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: summary_record
+2023-12-09 08:48:38,214 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-09 08:48:38,214 DEBUG   SenderThread:73786 [sender.py:send():380] send: history
+2023-12-09 08:48:38,214 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: summary_record
+2023-12-09 08:48:38,215 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-09 08:48:38,945 DEBUG   SenderThread:73786 [sender.py:send():380] send: exit
+2023-12-09 08:48:38,945 INFO    SenderThread:73786 [sender.py:send_exit():585] handling exit code: 0
+2023-12-09 08:48:38,945 INFO    SenderThread:73786 [sender.py:send_exit():587] handling runtime: 10
+2023-12-09 08:48:38,946 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-09 08:48:38,946 INFO    SenderThread:73786 [sender.py:send_exit():593] send defer
+2023-12-09 08:48:38,947 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:38,947 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 0
+2023-12-09 08:48:38,947 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: status_report
+2023-12-09 08:48:38,948 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:38,948 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-12-09 08:48:38,948 INFO    SenderThread:73786 [sender.py:transition_state():613] send defer: 1
+2023-12-09 08:48:38,948 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:38,948 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 1
+2023-12-09 08:48:38,949 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:38,949 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-12-09 08:48:38,949 INFO    SenderThread:73786 [sender.py:transition_state():613] send defer: 2
+2023-12-09 08:48:38,949 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:38,950 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 2
+2023-12-09 08:48:38,950 INFO    HandlerThread:73786 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-09 08:48:38,950 DEBUG   SystemMonitor:73786 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-09 08:48:38,950 DEBUG   SystemMonitor:73786 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-09 08:48:38,950 DEBUG   SystemMonitor:73786 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-09 08:48:38,952 INFO    HandlerThread:73786 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-09 08:48:38,952 INFO    HandlerThread:73786 [interfaces.py:finish():202] Joined disk monitor
+2023-12-09 08:48:38,952 INFO    HandlerThread:73786 [interfaces.py:finish():202] Joined memory monitor
+2023-12-09 08:48:38,953 INFO    HandlerThread:73786 [interfaces.py:finish():202] Joined network monitor
+2023-12-09 08:48:38,954 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:38,954 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-12-09 08:48:38,954 INFO    SenderThread:73786 [sender.py:transition_state():613] send defer: 3
+2023-12-09 08:48:38,954 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:38,955 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 3
+2023-12-09 08:48:38,955 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:38,955 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-12-09 08:48:38,955 INFO    SenderThread:73786 [sender.py:transition_state():613] send defer: 4
+2023-12-09 08:48:38,956 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:38,956 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 4
+2023-12-09 08:48:38,956 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:38,957 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-12-09 08:48:38,957 INFO    SenderThread:73786 [sender.py:transition_state():613] send defer: 5
+2023-12-09 08:48:38,957 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:38,957 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 5
+2023-12-09 08:48:38,958 DEBUG   SenderThread:73786 [sender.py:send():380] send: summary
+2023-12-09 08:48:38,959 INFO    SenderThread:73786 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-09 08:48:38,959 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:38,959 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-12-09 08:48:38,960 INFO    SenderThread:73786 [sender.py:transition_state():613] send defer: 6
+2023-12-09 08:48:38,960 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:38,960 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 6
+2023-12-09 08:48:38,960 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:38,961 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-12-09 08:48:38,966 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: status_report
+2023-12-09 08:48:39,071 INFO    SenderThread:73786 [sender.py:transition_state():613] send defer: 7
+2023-12-09 08:48:39,071 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:39,071 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 7
+2023-12-09 08:48:39,072 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:39,072 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-12-09 08:48:39,155 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/output.log
+2023-12-09 08:48:39,155 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/config.yaml
+2023-12-09 08:48:39,156 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/wandb-summary.json
+2023-12-09 08:48:39,945 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-09 08:48:40,671 INFO    SenderThread:73786 [sender.py:transition_state():613] send defer: 8
+2023-12-09 08:48:40,671 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: poll_exit
+2023-12-09 08:48:40,672 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:40,672 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 8
+2023-12-09 08:48:40,673 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:40,673 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-12-09 08:48:40,673 INFO    SenderThread:73786 [job_builder.py:build():298] Attempting to build job artifact
+2023-12-09 08:48:40,674 INFO    SenderThread:73786 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-12-09 08:48:40,946 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-09 08:48:41,156 INFO    Thread-17 :73786 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/output.log
+2023-12-09 08:48:42,281 INFO    SenderThread:73786 [job_builder.py:build():404] adding wandb-job metadata file
+2023-12-09 08:48:42,297 INFO    SenderThread:73786 [sender.py:transition_state():613] send defer: 9
+2023-12-09 08:48:42,297 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: poll_exit
+2023-12-09 08:48:42,298 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:42,298 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 9
+2023-12-09 08:48:42,299 DEBUG   SenderThread:73786 [sender.py:send():380] send: artifact
+2023-12-09 08:48:42,663 INFO    SenderThread:73786 [sender.py:send_artifact():1458] sent artifact job-git_github.com_ShuoXing98_SPTP-ABD-assignments.git_assignment3_main.py - {'id': 'QXJ0aWZhY3Q6NjYyMjY0OTYy', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyMjEzMjMxMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjYyMjY0OTYy', 'versionIndex': 0}}}
+2023-12-09 08:48:42,663 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:42,663 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-12-09 08:48:42,663 INFO    SenderThread:73786 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-09 08:48:43,158 INFO    SenderThread:73786 [dir_watcher.py:finish():388] scan: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files
+2023-12-09 08:48:43,159 INFO    SenderThread:73786 [dir_watcher.py:finish():402] scan save: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/output.log output.log
+2023-12-09 08:48:43,159 INFO    SenderThread:73786 [dir_watcher.py:finish():402] scan save: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/config.yaml config.yaml
+2023-12-09 08:48:43,160 INFO    SenderThread:73786 [dir_watcher.py:finish():402] scan save: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/wandb-metadata.json wandb-metadata.json
+2023-12-09 08:48:43,160 INFO    SenderThread:73786 [dir_watcher.py:finish():402] scan save: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/conda-environment.yaml conda-environment.yaml
+2023-12-09 08:48:43,160 INFO    SenderThread:73786 [dir_watcher.py:finish():402] scan save: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/wandb-summary.json wandb-summary.json
+2023-12-09 08:48:43,161 INFO    SenderThread:73786 [dir_watcher.py:finish():402] scan save: /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/requirements.txt requirements.txt
+2023-12-09 08:48:43,161 INFO    SenderThread:73786 [sender.py:transition_state():613] send defer: 10
+2023-12-09 08:48:43,162 DEBUG   HandlerThread:73786 [handler.py:handle_request():146] handle_request: defer
+2023-12-09 08:48:43,174 INFO    HandlerThread:73786 [handler.py:handle_request_defer():172] handle defer: 10
+2023-12-09 08:48:43,193 DEBUG   SenderThread:73786 [sender.py:send_request():407] send_request: defer
+2023-12-09 08:48:43,193 INFO    SenderThread:73786 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-12-09 08:48:43,193 INFO    SenderThread:73786 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-09 08:48:43,347 INFO    wandb-upload_0:73786 [upload_job.py:push():131] Uploaded file /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/output.log
+2023-12-09 08:48:43,374 INFO    wandb-upload_1:73786 [upload_job.py:push():131] Uploaded file /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/config.yaml
+2023-12-09 08:48:43,429 INFO    wandb-upload_4:73786 [upload_job.py:push():131] Uploaded file /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/requirements.txt
+2023-12-09 08:48:43,430 INFO    wandb-upload_2:73786 [upload_job.py:push():131] Uploaded file /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/conda-environment.yaml
+2023-12-09 08:48:43,436 INFO    wandb-upload_3:73786 [upload_job.py:push():131] Uploaded file /home/ubuntu/shuoxing/SPTP-ABD-assignments/assignment3/wandb/run-20231209_084827-lpdkslzc/files/wandb-summary.json
